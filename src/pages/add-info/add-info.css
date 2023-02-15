@@ -1,0 +1,17 @@
+.form {
+  border: 1px solid #dee2e6; 
+  padding-top: 10px;
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.label {
+  background-color: #525252;
+  color: #fff;
+  width: 200px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

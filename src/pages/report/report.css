@@ -1,0 +1,29 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+tbody {
+  background: #E4E3E3;
+}
+
+tr {
+  height: 45px;
+}
+
+th, td {
+  width: 200px;
+  padding: 0 20px;
+}
+
+thead tr:last-child {
+  background: #545454;
+  color: #fff;
+}

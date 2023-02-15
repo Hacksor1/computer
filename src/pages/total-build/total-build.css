@@ -1,0 +1,19 @@
+.PhoneInputInput {
+  border: none;
+}
+
+.PhoneInputInput:focus {
+  outline: none;
+}
+.react-tel-input .form-control {
+  border: none;
+  width: 100%;
+}
+.react-tel-input .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.react-tel-input .flag-dropdown {
+  border: none !important;
+  background-color: #fff !important;
+}

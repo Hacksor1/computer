@@ -1,0 +1,15 @@
+.notifications__container {
+	position: absolute;
+	top: 70px;
+	left: 10px;
+}
+
+.notification {
+	border-radius: 5px;
+	min-width: 250px;
+	padding: 15px;
+	margin-bottom: 5px;
+	background: #198754;
+	font-size: 14px;
+	color: #fff;
+}
