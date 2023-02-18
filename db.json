@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "login": "z",
+      "login": "asas@gmail.com",
       "password": "123",
       "id": 1
     },
@@ -11,7 +11,7 @@
       "id": 2
     },
     {
-      "login": "sas",
+      "login": "sad123123@a.a",
       "password": "123",
       "id": 3
     },
@@ -19,6 +19,21 @@
       "login": "qwe",
       "password": "123",
       "id": 4
+    },
+    {
+      "login": "a@a.a",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "login": "zxc@a.a",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "login": "cvb@a.a",
+      "password": "123",
+      "id": 7
     }
   ],
   "components": [
@@ -99,7 +114,7 @@
       "typeTitle": "Процессор",
       "title": "Процессор Intel i7 12700k",
       "date": "16.06.2020",
-      "price": "27 540 р",
+      "price": "27 540",
       "image": "images/i7.jpg",
       "count": 1,
       "properties": {
@@ -113,7 +128,7 @@
       "typeTitle": "Процессор",
       "title": "Процессор Intel i5 12400F",
       "date": "13.03.2020",
-      "price": "15 000 р",
+      "price": "15 000",
       "image": "images/i5.jpg",
       "count": 1,
       "properties": {
@@ -127,7 +142,7 @@
       "typeTitle": "Процессор",
       "title": "Процессор Intel i7 12400f",
       "date": "16.06.2020",
-      "price": "13 600 р",
+      "price": "13 600",
       "image": "images/i7.jpg",
       "count": 1,
       "properties": {
@@ -143,7 +158,7 @@
       "typeTitle": "Материнка",
       "title": "Материнская плата ASUS TUF GAMING B460M-PLUS",
       "date": "21.09.2020",
-      "price": "12 490 р",
+      "price": "12 490",
       "image": "images/b460.jpg",
       "count": 1,
       "properties": {
@@ -159,7 +174,7 @@
       "typeTitle": "Материнка",
       "title": "Материнская плата Gigabyte Z690 GAMING X",
       "date": "24.11.2020",
-      "price": "19 520 р",
+      "price": "19 520",
       "image": "images/z690.jpg",
       "count": 1,
       "properties": {
@@ -175,7 +190,7 @@
       "typeTitle": "Материнка",
       "title": "Материнская плата Gigabyte B660M GAMING X",
       "date": "16.06.2020",
-      "price": "11 990 р",
+      "price": "11 990",
       "image": "images/b660M.jpg",
       "count": 1,
       "properties": {
@@ -191,7 +206,7 @@
       "typeTitle": "Материнка",
       "title": "Материнская плата MSI PRO H610M-G",
       "date": "21.09.2020",
-      "price": "6 150 р",
+      "price": "6 150",
       "image": "images/H610.jpg",
       "count": 1,
       "properties": {
@@ -209,7 +224,7 @@
       "typeTitle": "Видеокарта",
       "title": "Видеокарта Gigabyte GeForce RTX 3060 Ti EAGLE 8GB",
       "date": "02.02.2023",
-      "price": "123123 р",
+      "price": "123123",
       "image": "images/3060.jpg",
       "count": 324,
       "properties": {
@@ -224,7 +239,7 @@
       "typeTitle": "Видеокарта",
       "title": "Видеокарта ASUS GeForce GTX 1660 Ti TUF EVO OC 6GB",
       "date": "13.03.2020",
-      "price": "47 600 р",
+      "price": "47 600",
       "image": "images/1660.jpg",
       "count": 1,
       "properties": {
@@ -239,7 +254,7 @@
       "typeTitle": "Видеокарта",
       "title": "Видеокарта MSI GeForce GT1030 AERO 2048Mb",
       "date": "24.11.2020",
-      "price": "6 450 р",
+      "price": "6 450",
       "image": "images/1030.jpg",
       "count": 1,
       "properties": {
@@ -256,7 +271,7 @@
       "typeTitle": "Оперативка",
       "title": "Оперативная память 16Gb 2666MHz Kingston HyperX Fury",
       "date": "13.03.2020",
-      "price": "7 450 р",
+      "price": "7 450",
       "image": "images/fury.jpg",
       "count": 1,
       "properties": {
@@ -271,7 +286,7 @@
       "typeTitle": "Оперативка",
       "title": "Оперативная память 16Gb 3200MHz Crucial Ballistix Black",
       "date": "21.09.2020",
-      "price": "6 600 р",
+      "price": "6 600",
       "image": "images/crucial.jpg",
       "count": 1,
       "properties": {
@@ -288,7 +303,7 @@
       "typeTitle": "Охлаждение",
       "title": "Охлаждение Thermalright Le Grand Macho RT",
       "date": "16.06.2020",
-      "price": "3 490 р",
+      "price": "3 490",
       "image": "images/macho.jpg",
       "count": 1,
       "properties": {
@@ -303,7 +318,7 @@
       "typeTitle": "Охлаждение",
       "title": "Охлаждение ID-COOLING SE-214-XT ARGB WHITE",
       "date": "13.03.2020",
-      "price": "2 670 р",
+      "price": "2 670",
       "image": "images/ID.jpg",
       "count": 1,
       "properties": {
@@ -320,7 +335,7 @@
       "typeTitle": "Жесткий",
       "title": "Жесткий диск 2Tb Seagate Barracuda",
       "date": "21.09.2020",
-      "price": "4 770 р",
+      "price": "4 770",
       "image": "images/seagate.jpg",
       "count": 1,
       "properties": {
@@ -335,7 +350,7 @@
       "typeTitle": "Жесткий",
       "title": "Твердотельный накопитель SSD 960Gb Kingston A400",
       "date": "16.06.2020",
-      "price": "5 275 р",
+      "price": "5 275",
       "image": "images/king.jpg",
       "count": 1,
       "properties": {
@@ -353,7 +368,7 @@
       "typeTitle": "Блок",
       "title": "Блок питания Thermaltake Toughpower GF2 ARGB",
       "date": "24.11.2020",
-      "price": "13 080 р",
+      "price": "13 080",
       "image": "images/GF2.jpg",
       "count": 1,
       "properties": {
@@ -368,7 +383,7 @@
       "typeTitle": "Блок",
       "title": "Блок питания 500W Aerocool VX-500 PLUS",
       "date": "16.06.2020",
-      "price": "2 450 р",
+      "price": "2 450",
       "image": "images/VX.jpg",
       "count": 1,
       "properties": {
@@ -385,7 +400,7 @@
       "typeTitle": "Корпус",
       "title": "Корпус Zalman i3 Edge Black",
       "date": "21.09.2020",
-      "price": "4 200 р",
+      "price": "4 200",
       "image": "images/edge.jpg",
       "count": 1,
       "properties": {
@@ -400,7 +415,7 @@
       "typeTitle": "Корпус",
       "title": "Корпус AeroCool Aero One Frost Black TG",
       "date": "16.06.2020",
-      "price": "4 775 р",
+      "price": "4 775",
       "image": "images/TG.jpg",
       "count": 1,
       "properties": {
@@ -423,7 +438,7 @@
           "typeTitle": "Процессор",
           "title": "Процессор Intel i7 12700k",
           "date": "16.06.2020",
-          "price": "27 540 р",
+          "price": "27 540",
           "image": "images/i7.jpg",
           "count": 1,
           "properties": {
@@ -437,7 +452,7 @@
           "typeTitle": "Материнка",
           "title": "Материнская плата ASUS TUF GAMING B460M-PLUS",
           "date": "21.09.2020",
-          "price": "12 490 р",
+          "price": "12 490",
           "image": "images/b460.jpg",
           "count": 1,
           "properties": {
@@ -453,7 +468,7 @@
           "typeTitle": "Видеокарта",
           "title": "Видеокарта Gigabyte GeForce RTX 3060 Ti EAGLE 8GB",
           "date": "02.02.2023",
-          "price": "123 123 р",
+          "price": "123 123",
           "image": "images/3060.jpg",
           "count": 324,
           "properties": {
@@ -468,7 +483,7 @@
           "typeTitle": "Оперативка",
           "title": "Оперативная память 16Gb 3200MHz Crucial Ballistix Black",
           "date": "21.09.2020",
-          "price": "6 600 р",
+          "price": "6 600",
           "image": "images/crucial.jpg",
           "count": 1,
           "properties": {
@@ -483,7 +498,7 @@
           "typeTitle": "Охлаждение",
           "title": "Охлаждение Thermalright Le Grand Macho RT",
           "date": "16.06.2020",
-          "price": "3 490 р",
+          "price": "3 490",
           "image": "images/macho.jpg",
           "count": 1,
           "properties": {
@@ -498,7 +513,7 @@
           "typeTitle": "Жесткий",
           "title": "Жесткий диск 2Tb Seagate Barracuda",
           "date": "21.09.2020",
-          "price": "4 770 р",
+          "price": "4 770",
           "image": "images/seagate.jpg",
           "count": 1,
           "properties": {
@@ -513,7 +528,7 @@
           "typeTitle": "Блок",
           "title": "Блок питания Thermaltake Toughpower GF2 ARGB",
           "date": "24.11.2020",
-          "price": "13 080 р",
+          "price": "13 080",
           "image": "images/GF2.jpg",
           "count": 1,
           "properties": {
@@ -528,7 +543,7 @@
           "typeTitle": "Корпус",
           "title": "Корпус Zalman i3 Edge Black",
           "date": "21.09.2020",
-          "price": "4 200 р",
+          "price": "4 200",
           "image": "images/edge.jpg",
           "count": 1,
           "properties": {
@@ -566,7 +581,7 @@
           "typeTitle": "Видеокарта",
           "title": "Видеокарта ASUS GeForce GTX 1660 Ti TUF EVO OC 6GB",
           "date": "13.03.2020",
-          "price": "47 600 р",
+          "price": "47 600",
           "image": "images/1660.jpg",
           "count": 1,
           "properties": {
@@ -581,7 +596,7 @@
           "typeTitle": "Корпус",
           "title": "Корпус Zalman i3 Edge Black",
           "date": "21.09.2020",
-          "price": "4 200 р",
+          "price": "4 200",
           "image": "images/edge.jpg",
           "count": 1,
           "properties": {
@@ -596,7 +611,7 @@
           "typeTitle": "Блок",
           "title": "Блок питания Thermaltake Toughpower GF2 ARGB",
           "date": "24.11.2020",
-          "price": "13 080 р",
+          "price": "13 080",
           "image": "images/GF2.jpg",
           "count": 1,
           "properties": {
@@ -611,7 +626,7 @@
           "typeTitle": "Охлаждение",
           "title": "Охлаждение Thermalright Le Grand Macho RT",
           "date": "16.06.2020",
-          "price": "3 490 р",
+          "price": "3 490",
           "image": "images/macho.jpg",
           "count": 1,
           "properties": {
@@ -626,7 +641,7 @@
           "typeTitle": "Жесткий",
           "title": "Жесткий диск 2Tb Seagate Barracuda",
           "date": "21.09.2020",
-          "price": "4 770 р",
+          "price": "4 770",
           "image": "images/seagate.jpg",
           "count": 1,
           "properties": {
@@ -641,7 +656,7 @@
           "typeTitle": "Оперативка",
           "title": "Оперативная память 16Gb 2666MHz Kingston HyperX Fury",
           "date": "13.03.2020",
-          "price": "7 450 р",
+          "price": "7 450",
           "image": "images/fury.jpg",
           "count": 1,
           "properties": {
@@ -656,7 +671,7 @@
           "typeTitle": "Материнка",
           "title": "Материнская плата ASUS TUF GAMING B460M-PLUS",
           "date": "21.09.2020",
-          "price": "12 490 р",
+          "price": "12 490",
           "image": "images/b460.jpg",
           "count": 1,
           "properties": {
@@ -672,7 +687,7 @@
     },
     {
       "telephone": "72313123131",
-      "email": "sad123123@a.a",
+      "email": "a@a.a",
       "address": "edfgbdfgdfgdfgdfgdfg",
       "date": "10.02.2023",
       "build": {
@@ -695,7 +710,7 @@
           "typeTitle": "Материнка",
           "title": "Материнская плата ASUS TUF GAMING B460M-PLUS",
           "date": "21.09.2020",
-          "price": "12 490 р",
+          "price": "12 490",
           "image": "images/b460.jpg",
           "count": 1,
           "properties": {
@@ -711,7 +726,7 @@
           "typeTitle": "Видеокарта",
           "title": "Видеокарта Gigabyte GeForce RTX 3060 Ti EAGLE 8GB",
           "date": "02.02.2023",
-          "price": "123123 р",
+          "price": "123123",
           "image": "images/3060.jpg",
           "count": 324,
           "properties": {
@@ -726,7 +741,7 @@
           "typeTitle": "Оперативка",
           "title": "Оперативная память 16Gb 2666MHz Kingston HyperX Fury",
           "date": "13.03.2020",
-          "price": "7 450 р",
+          "price": "7 450",
           "image": "images/fury.jpg",
           "count": 1,
           "properties": {
@@ -741,7 +756,7 @@
           "typeTitle": "Охлаждение",
           "title": "Охлаждение Thermalright Le Grand Macho RT",
           "date": "16.06.2020",
-          "price": "3 490 р",
+          "price": "3 490",
           "image": "images/macho.jpg",
           "count": 1,
           "properties": {
@@ -756,7 +771,7 @@
           "typeTitle": "Жесткий",
           "title": "Жесткий диск 2Tb Seagate Barracuda",
           "date": "21.09.2020",
-          "price": "4 770 р",
+          "price": "4 770",
           "image": "images/seagate.jpg",
           "count": 1,
           "properties": {
@@ -771,7 +786,7 @@
           "typeTitle": "Блок",
           "title": "Блок питания Thermaltake Toughpower GF2 ARGB",
           "date": "24.11.2020",
-          "price": "13 080 р",
+          "price": "13 080",
           "image": "images/GF2.jpg",
           "count": 1,
           "properties": {
@@ -786,7 +801,7 @@
           "typeTitle": "Корпус",
           "title": "Корпус Zalman i3 Edge Black",
           "date": "21.09.2020",
-          "price": "4 200 р",
+          "price": "4 200",
           "image": "images/edge.jpg",
           "count": 1,
           "properties": {
@@ -798,6 +813,135 @@
         }
       },
       "id": 8
+    },
+    {
+      "telephone": "75453534534",
+      "email": "cvb@a.a",
+      "address": "tertetetertert",
+      "date": "18.02.2023",
+      "build": {
+        "processors": {
+          "id": 3,
+          "typeTitle": "Процессор",
+          "title": "Процессор Intel i5 12400F",
+          "date": "13.03.2020",
+          "price": "15 000",
+          "image": "images/i5.jpg",
+          "count": 1,
+          "properties": {
+            "Socket": "LGA 1700",
+            "Тактовая частота": "2500",
+            "Количество ядер": "6"
+          }
+        },
+        "mothercard": {
+          "id": 3,
+          "typeTitle": "Материнка",
+          "title": "Материнская плата Gigabyte B660M GAMING X",
+          "date": "16.06.2020",
+          "price": "11 990",
+          "image": "images/b660M.jpg",
+          "count": 1,
+          "properties": {
+            "Socket": "LGA 1700",
+            "Чипсет": "B660M",
+            "Тип памяти": "DDR4",
+            "Количество слотов памяти": "4",
+            "Частота памяти": "3200-4400 МГц"
+          }
+        },
+        "videocards": {
+          "id": 2,
+          "typeTitle": "Видеокарта",
+          "title": "Видеокарта ASUS GeForce GTX 1660 Ti TUF EVO OC 6GB",
+          "date": "13.03.2020",
+          "price": "47 600",
+          "image": "images/1660.jpg",
+          "count": 1,
+          "properties": {
+            "Ядро": "1500 МГц",
+            "Объем видеопамяти": "6 ГБ",
+            "Память": "GDDR6",
+            "Длина": "2206 мм"
+          }
+        },
+        "ram": {
+          "id": 2,
+          "typeTitle": "Оперативка",
+          "title": "Оперативная память 16Gb 3200MHz Crucial Ballistix Black",
+          "date": "21.09.2020",
+          "price": "6 600",
+          "image": "images/crucial.jpg",
+          "count": 1,
+          "properties": {
+            "Тип памяти": "DDR4",
+            "Объем видеопамяти": "2x8 ГБ",
+            "Тайминги": "16-18-18-36",
+            "Высота": "46 мм"
+          }
+        },
+        "cooler": {
+          "id": 1,
+          "typeTitle": "Охлаждение",
+          "title": "Охлаждение Thermalright Le Grand Macho RT",
+          "date": "16.06.2020",
+          "price": "3 490",
+          "image": "images/macho.jpg",
+          "count": 1,
+          "properties": {
+            "Socket": "LGA 775, LGA 1150, LGA 1151, LGA 1155, LGA 1156, LGA 1356, LGA 1366, LGA 2011, LGA 2011-3, AM2, AM2+, AM3, AM3+, FM1, FM2, FM2+",
+            "Скорость вращения": "300-1300 об/мин",
+            "Система охлаждения": "активная",
+            "Высота": "159 мм"
+          }
+        },
+        "hdd": {
+          "id": 1,
+          "typeTitle": "Жесткий",
+          "title": "Жесткий диск 2Tb Seagate Barracuda",
+          "date": "21.09.2020",
+          "price": "4 770",
+          "image": "images/seagate.jpg",
+          "count": 1,
+          "properties": {
+            "Интерфейс": "SATA-III",
+            "Объём накопителя": "2000 Гб",
+            "Скорость вращения шпинделя": "7200 об/мин",
+            "Тип": "HDD"
+          }
+        },
+        "power": {
+          "id": 1,
+          "typeTitle": "Блок",
+          "title": "Блок питания Thermaltake Toughpower GF2 ARGB",
+          "date": "24.11.2020",
+          "price": "13 080",
+          "image": "images/GF2.jpg",
+          "count": 1,
+          "properties": {
+            "Мощность": "650 Вт",
+            "Система охлаждения": "активный PFC",
+            "Вентилятор": "140 мм",
+            "Защита от перегрузки": "Да"
+          }
+        },
+        "corpus": {
+          "id": 1,
+          "typeTitle": "Корпус",
+          "title": "Корпус Zalman i3 Edge Black",
+          "date": "21.09.2020",
+          "price": "4 200",
+          "image": "images/edge.jpg",
+          "count": 1,
+          "properties": {
+            "Форм-фактор": "ATX, mATX, Mini-ITX",
+            "Типоразмер": "Midi-Tower",
+            "Длина видеокарты": "360 мм",
+            "Высота кулера": "172 мм"
+          }
+        }
+      },
+      "id": 9
     }
   ]
 }

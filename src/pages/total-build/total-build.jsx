@@ -8,8 +8,6 @@ import 'react-phone-input-2/lib/style.css'
 import './total-build.css'
 import { formatPrice } from '../../utils/format-price'
 
-const reg = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-
 function TotalBuildPage() {
   const navigate = useNavigate()
 
@@ -20,19 +18,15 @@ function TotalBuildPage() {
 
   const [phoneInput, setPhoneInput] = useState('')
   const [phoneErrorInput, setPhoneErrorInput] = useState(false)
-  const [emailInput, setEmailInput] = useState('')
-  const [emailErrorInput, setErrorEmailInput] = useState(false)
   const [addressInput, setAddressInput] = useState('')
   const [addressErrorInput, setAddressErrorInput] = useState(false)
 
   const validateForm = () => {
     const isPhoneError = phoneInput.length < 11
-    const isEmailError = !reg.test(emailInput)
     const isAddressError = addressInput.length < 10
     setPhoneErrorInput(isPhoneError)
-    setErrorEmailInput(isEmailError)
     setAddressErrorInput(isAddressError)
-    return isPhoneError || isEmailError || isAddressError
+    return isPhoneError || isAddressError
   }
 
   const submitForm = () => {
@@ -45,7 +39,7 @@ function TotalBuildPage() {
 
     const formData = {
       telephone: phoneInput,
-      email: emailInput,
+      email: localStorage.getItem('login'),
       address: addressInput,
       date: new Date().toLocaleDateString(),
       build
@@ -60,7 +54,6 @@ function TotalBuildPage() {
     }).then(() => {
       handleClose()
       setPhoneInput('')
-      setEmailInput('')
       setAddressInput('')
 
       cartStateSubject.next({})
@@ -116,20 +109,6 @@ function TotalBuildPage() {
             {phoneErrorInput && (
               <small className="text-danger">
                 Введите полный номер телефона
-              </small>
-            )}
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">Email</label>
-            <input
-              className={emailErrorInput ? 'form-control is-invalid' : 'form-control'}
-              type="email"
-              onChange={e => setEmailInput(e.target.value)}
-              value={emailInput}
-              id="exampleInputPassword1" />
-            {emailErrorInput && (
-              <small className="text-danger">
-                Введите коррекнтую электронную почту
               </small>
             )}
           </div>

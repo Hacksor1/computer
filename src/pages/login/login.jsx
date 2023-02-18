@@ -32,6 +32,7 @@ function LoginPage() {
             authStateSubject.next('admin')
           } else {
             authStateSubject.next('true')
+            localStorage.setItem('login', user.login)
           }
           navigate('/')
           setError(false)

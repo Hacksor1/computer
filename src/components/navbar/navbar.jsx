@@ -10,9 +10,8 @@ function Navbar() {
   useEffect(() => {
     const sub = authState$.subscribe(state => {
       const is = state === 'admin';
-      if (is !== isAdmin) {
-        setIsAdmin(is)
-      }
+      setIsAdmin(is)
+      
 
       const auth = state === 'admin' || state === 'true'
       setIsAuth(auth)
@@ -23,6 +22,7 @@ function Navbar() {
   }, [])
 
   const logout = () => {
+    localStorage.removeItem('login')
     authStateSubject.next('false')
     cartStateSubject.next({})
   }

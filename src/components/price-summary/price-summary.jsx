@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { cartState$ } from '../../cart-state/cart-state'
 import { formatPrice } from '../../utils/format-price'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 import './price-summary.css'
 
 function PriceSummary() {
@@ -53,7 +55,20 @@ function PriceSummary() {
           <span className='fs-4'> {formatPrice(price === 0 ? 0 : price + 1000)} p</span>
         </p>
       </div>
-      <button onClick={handleClick} className='btn btn-primary w-100' disabled={disabled}>Собрать</button>
+      <OverlayTrigger
+        placement="bottom"
+        overlay={
+          disabled ? (
+          <Tooltip>
+            Выберите все комплектующие
+          </Tooltip>)
+          : <></>
+        }>
+          <div>
+            
+          <button onClick={handleClick} className='btn btn-primary w-100' disabled={disabled}>Собрать</button>
+          </div>
+        </OverlayTrigger>
     </div>
   )
 }

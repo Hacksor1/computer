@@ -8,7 +8,7 @@ export const cartState$ = cartStateSubject
   .asObservable()
   .pipe(tap(state => {
     localStorage.setItem('cart', JSON.stringify(state))
-  }));
+}));
 
 
 const prevLoginState = (localStorage.getItem('auth') || 'false');

@@ -105,7 +105,7 @@ function CardComponent({ title, description, image, type, id }) {
             </p>
             <p className="card-text">
               <button onClick={handleShow} className='me-3 btn btn-outline-primary'>
-                {isChoose ? 'Изменить' : 'Добавить'}
+                {isChoose ? 'Изменить' : 'Выбрать'}
               </button>
               {isChoose && (
                 <button onClick={deleteBtn} className='btn btn-outline-danger'>
@@ -119,7 +119,7 @@ function CardComponent({ title, description, image, type, id }) {
       </div>
       <Modal show={show} onHide={handleClose} dialogClassName="modal-90w" >
         <Modal.Header closeButton>
-          <Modal.Title>{title}</Modal.Title>
+          <Modal.Title>{title} - Выберите один товар</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="container">
@@ -132,7 +132,7 @@ function CardComponent({ title, description, image, type, id }) {
                  <div className="col-md-8">
                    <div className="card-body">
                      <h5 className="card-title">{c.title}</h5>
-                     <p className='fs-5' style={{ marginBottom: 0 }}>Цена: {c.price}</p>
+                     <p className='fs-5' style={{ marginBottom: 0 }}>Цена: {c.price} р</p>
                      <p style={{ marginBottom: 0 }}>Количество на складе: {c.count}</p>
 
                      {Object.entries(c.properties).map(([key, value]) => (

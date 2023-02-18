@@ -6,14 +6,18 @@ import { useState } from 'react'
 import {  authStateSubject } from '../../cart-state/cart-state';
 import { useNavigate } from 'react-router-dom';
 
+const reg = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+
 function RegisterPage() {
   const [error, setError] = useState(false);
   const [login, setLogin] = useState('');
+  const [loginError, setLoginError] = useState(false);
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
   const editLogin = (login) => {
     setError(false)
+    setLoginError(false)
     setLogin(login)
   }
 
@@ -23,6 +27,11 @@ function RegisterPage() {
   }
 
   const submit = () => {
+    if (!reg.test(login)) {
+      setLoginError(true);
+      return;
+    }
+
     fetch('http://localhost:3004/users', {
       method: 'POST',
       headers: {
@@ -35,6 +44,7 @@ function RegisterPage() {
     })
     .then(() => {
       authStateSubject.next('true')
+      localStorage.setItem('login', login)
       navigate('/')
     });
   }
@@ -48,15 +58,20 @@ function RegisterPage() {
       <div className='row'>
         <div className="bg-white w-50 mx-auto p-4 px-5">
           <h3 className='mb-3'>Регистрация</h3>
-        <InputGroup className="mb-3">
-        <Form.Control
-          placeholder="Логин"
-          className={error ? 'is-invalid' : ''}
-          aria-label="Логин"
-          onChange={e => editLogin(e.target.value)}
-          value={login}
-        />
-      </InputGroup>
+          <div className="mb-3">
+            <input
+              className={loginError ? 'form-control is-invalid' : 'form-control'}
+              type="email"
+              onChange={e => editLogin(e.target.value)}
+              placeholder="Email"
+              value={login}
+              id="exampleInputPassword1" />
+            {loginError && (
+              <small className="text-danger">
+                Введите корректную электронную почту
+              </small>
+            )}
+        </div>
       <InputGroup className="mb-3">
         <Form.Control
           type='password'

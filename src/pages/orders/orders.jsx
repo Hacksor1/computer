@@ -10,9 +10,8 @@ function OrdersPage() {
     fetch('http://localhost:3004/orders')
       .then(res => res.json())
       .then((data) => {
-        // @TODO replace email to dynamic
         const ordersEmail = data
-          .filter(o => o.email === 'asas@gmail.com')
+          .filter(o => o.email === localStorage.getItem('login'))
           .map(o => o.build)
           .map((build) => {
             return Object.entries(build).map(([key, value]) => ({
@@ -33,7 +32,10 @@ function OrdersPage() {
       <div className="row">
         <div className="col">
           <div className="container">
-            <h1 className='text-start'>Общая стоимость заказа: {formatPrice(totalSum)} р</h1>
+            <h1 className='text-start'>
+              {totalSum ? ` Общая стоимость заказа: ${formatPrice(totalSum)} р` : 'Вы еще не сделали ни один заказ :('}
+             
+            </h1>
             {orders.map(c => ((
               <div key={c.id} className="mt-3 mx-auto card mb-3" style={{ maxWidth: '100%' }}>
                 <div className="row g-0">
@@ -45,7 +47,7 @@ function OrdersPage() {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h5 className="card-title">{c.title}</h5>
-                      <p className='fs-5' style={{ marginBottom: 0 }}>Цена: {c.price}</p>
+                      <p className='fs-5' style={{ marginBottom: 0 }}>Цена: {c.price} р</p>
                       <p style={{ marginBottom: 0 }}>Количество на складе: {c.count}</p>
 
                       {Object.entries(c.properties).map(([key, value]) => (
