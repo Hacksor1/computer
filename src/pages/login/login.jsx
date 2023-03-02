@@ -5,19 +5,23 @@ import { InputGroup } from 'react-bootstrap';
 import { useEffect, useState } from 'react'
 import {  authStateSubject } from '../../cart-state/cart-state';
 import { useNavigate } from 'react-router-dom';
+import showNotification from '../../components/notification/notification'
 
 function LoginPage() {
   const [error, setError] = useState(false);
+  const [loginError, setLoginError] = useState(false);
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
   const editLogin = (login) => {
+    setLoginError(false)
     setError(false)
     setLogin(login)
   }
 
   const editPassword = (password) => {
+    setLoginError(false)
     setError(false)
     setPassword(password)
   }
@@ -32,11 +36,11 @@ function LoginPage() {
             authStateSubject.next('admin')
           } else {
             authStateSubject.next('true')
-            localStorage.setItem('login', user.login)
           }
           navigate('/')
           setError(false)
         } else {
+          setLoginError(true)
           authStateSubject.next('false')
           setError(true)
         }
@@ -71,6 +75,9 @@ function LoginPage() {
           value={password}
         />
       </InputGroup>
+      {loginError && (
+        <p className='text-danger mb-3'>Неверный логин или пароль</p>
+      )}
       <div className='text-start'>
         <Button className='w-50' variant="primary" onClick={() => submit()}>
           Войти
