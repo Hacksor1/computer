@@ -43,7 +43,7 @@ function AddInfoPage() {
     const date = new Date(dateInput).toLocaleDateString()
     const formData = {
       count: parseInt(countInput),
-      price: priceInput + ' р',
+      price: priceInput,
       date
     }
 
